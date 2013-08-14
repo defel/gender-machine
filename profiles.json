@@ -1,0 +1,7 @@
+{
+  "dev": {
+    "mongo": "mongodb://127.0.0.1:27017/gendern",
+    "url": "http://localhost:8394/",
+    "url_api": "http://localhost\\:8394/api/"
+  }
+}

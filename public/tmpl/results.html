@@ -1,0 +1,21 @@
+<div class="well">
+  <table class="table">
+    <thead>
+      <th>Suche</th>
+      <th>Ersetze</th>
+      <th>Beispiel</th>
+      <th>Quelle</th>
+    </thead>
+    <tr data-ng-repeat="result in results">
+      <td>{{result.searchFor}}</td>
+      <td><b>{{result.result}}</b></td>
+      <td>{{result.example}}</td>
+      <td>
+        <span class="label" data-ng-show="result.source">
+          <b>Quelle:</b> 
+          <a href="{{result.source.url}}">{{result.source.label}}</a>
+        </span> 
+      </td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,24 @@
+ Gender Machine
+================
+
+
+Requirements
+------------
+
+A running mongodb.
+
+Installation 
+------------
+
+> npm install
+
+Configuration
+-------------
+
+You can add more profiles in `profiles.json`.
+
+Start
+-----
+
+> APPENV=dev node server.js
+

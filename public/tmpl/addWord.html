@@ -1,0 +1,15 @@
+<div class="row noResults">
+  <div class="span6" >
+    <div class="alert">Wir haben noch keinen Eintrag für <b>{{searchFor}}</b>!</div>
+    <p>Du kannst uns gerne einen Vorschlag f&uuml;r <b>{{searchFor}}</b> machen:</p>
+
+    <form class="form-search">
+      <label class="span2">Eintrag</label>
+      <input type="text" class="input-medium span4" ng-model="newEntry"/>
+      <label class="span2">Beispiel</label>
+      <input type="text" class="input-medium span4" ng-model="newSample"/>
+      
+      <button class="btn btn-success" data-ng-click="submitEntry()">Einreichen</button>
+    </form>
+  </div>
+</div>
